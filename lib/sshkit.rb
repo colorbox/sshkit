@@ -24,6 +24,8 @@ module SSHKit
   # Used for redaction of a certain argument
   module Redaction end
 
+  def confirm;end
+
 end
 
 require_relative 'sshkit/all'
